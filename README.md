@@ -43,6 +43,7 @@ Clinical Note  →  Module B (Negation Extraction)  →  Module A (HPO Mapping) 
 ```
 project/
 ├── streamlit_app.py          # Main dashboard application
+├── requirements.txt          # Python dependencies
 ├── modules/
 │   ├── Module_A.ipynb        # HPO mapping notebook
 │   ├── Module_B.ipynb        # Negation extraction notebook
@@ -55,6 +56,7 @@ project/
 ├── resources/
 │   └── clinical_notes/       # Raw clinical note text files
 └── docs/
+    ├── PhenoExtract_report.pdf # HackRare project report
     └── screenshots/          # Dashboard screenshots for README
 ```
 
@@ -69,8 +71,8 @@ project/
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/HackRear.git
-cd HackRear
+git clone https://github.com/<your-username>/PhenoExtract.git
+cd PhenoExtract
 
 # Create a virtual environment
 python -m venv .venv
