@@ -10,6 +10,8 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
 # IDE / Editor
 .vscode/
@@ -22,3 +24,12 @@ Desktop.ini
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large/generated local artifacts
+*.obo
+*.pkl
+
+# Duplicate root copies; canonical files live in modules/ and data/
+/Module_A (2).ipynb
+/moduleB_exclusion_extractor (4) (1).ipynb
+/moduleB_output (2).json
