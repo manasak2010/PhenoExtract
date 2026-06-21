@@ -71,7 +71,7 @@ project/
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/PhenoExtract.git
+git clone https://github.com/manasak2010/PhenoExtract.git
 cd PhenoExtract
 
 # Create a virtual environment
